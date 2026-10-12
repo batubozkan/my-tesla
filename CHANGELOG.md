@@ -4,6 +4,10 @@ This file follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/). Vers
 
 ## [Unreleased]
 
+### Added
+
+- Charging insights: a Charging time panel. It shows how long a charge takes from one battery level to another, for DC and for AC, with a typical and a slow time. The times come from the time that the charges of the last 2 years spent at each battery percent. [Decision 0014](docs/decisions/0014-charging-time.md) explains the rule.
+
 ## [1.6.1] - 2026-10-07
 
 ### Fixed
